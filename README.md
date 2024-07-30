@@ -1,17 +1,19 @@
 # GCD/HCF of 2 Numbers using Euclid's Algorithm
 
-The Euclidean Algorithm is a method for finding the greatest common divisor (GCD) of two integers. 
-Here’s a brief overview of the steps:
+Euclid's Algorithm is a method for finding the Greatest Common Divisor (GCD) of two integers. The algorithm follows these steps:
 
-    - Start with two integers, `a` and `b` : Assume `a≥b`
-    - Compute the remainder of `a` divided by `b`, denoted as `r` (i.e., `r = a mod b`)
-    - Replace `a` with `b` and `b` with `r`
-    - Repeat the process until `b` becomes `0`. The non-zero remainder at this step is the GCD of a and b
+1. **Start with two integers**, `a` and `b`, where `a ≥ b`.
+
+2. **Compute the remainder** of `a` divided by `b`, denoted as `r` (i.e., `r = a mod b`).
+
+3. **Replace `a` with `b`** and `b` with `r`.
+
+4. **Repeat the process** until `b` becomes `0`. The non-zero remainder at this step is the GCD of `a` and `b`.
 
 ## Features
 
-    - Step-by-Step Explanation: Outputs each step of the Euclidean Algorithm for clarity.
-    - Error Handling: Includes basic error handling for invalid integer inputs.
+- **Step-by-Step Explanation**: Outputs each step of the Euclidean Algorithm for clarity.
+- **Error Handling**: Includes basic error handling for invalid integer inputs.
 
 ## Sample Output
 ```
