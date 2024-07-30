@@ -15,8 +15,6 @@ while 1:
     print("LCM", A * B / a)
     break
   print("Step", c, ":", a, "=", b, "*", a // b, "+", a % b)
-  t = b
-  b = a % b
-  a = t
+  a,b=b,a%b
   c += 1
 exit()
